@@ -3,6 +3,33 @@
     padding: 0;
     box-sizing: border-box;
 }
-h1{
-    color: brown;
+#container{
+    width: 1250px;
+    background: #ef0f0f;
+    margin: auto;
+}
+/* Banner Section */
+#banner{
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(#070211, #07021100), url('../images/Banner Image.png');
+}
+/* Hero Section */
+#hero{
+
+}
+/* discount Section */
+#discount{
+
+}
+/* Portfolio Section */
+#portfolio{
+
+}
+/* subscribe Section */
+#subscribe{
+
+}
+footer{
+
 }

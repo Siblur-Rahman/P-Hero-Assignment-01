@@ -1,3 +1,5 @@
+/* font-family: 'Inter', sans-serif; */
+/* font-family: 'Merriweather', serif; */
 *{
     margin: 0;
     padding: 0;
@@ -5,7 +7,6 @@
 }
 #container{
     width: 1250px;
-    background: #ef0f0f;
     margin: auto;
 }
 /* Banner Section */
@@ -13,22 +14,160 @@
     width: 100%;
     height: 600px;
     background: linear-gradient(#070211, #07021100), url('../images/Banner Image.png');
+    color: white;
 }
-/* Hero Section */
-#hero{
-
+.banner-text-box{
+    position: absolute;
+    top: 33.33%;
+    left: 25.2%;
+    width: 620px;
+    height: 200px;
+    font-family: 'Merriweather', serif;
+    text-align: center;
 }
-/* discount Section */
-#discount{
-
+.banner-text-box h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+.banner-text-box h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+/* Offer  Section */
+#Offer-section{
+    padding: 100px 225px;
+    text-align: center;
+}
+#Offer-section h1{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 80px;
+    font-weight: 700px;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+#Offer-section h4{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700px;
+    line-height: 30px;
+}
+#Offer-section h3{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 46px;
+    font-weight: 700px;
+    line-height: 60px;
+}
+/* welcome Section */
+#welcome{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(#070211, #07021100), url('../images/Vectorrr.png');
+    /* background: linear-gradient(#070211, #07021100), url('../images/Group 70.png'); */
+    color: white;
+}
+#welcome .img{
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 80px;
+    top: 80px;
+    z-index: 4;
+}
+.welcome-text-box{
+    position: absolute;
+    top: 33.33%;
+    left: 17.2%;
+    width: 620px;
+    height: 200px;
+    font-family: 'Merriweather', serif;
+}
+.welcome-text-box h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+.welcome-text-box button{
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 20px;
+    background-color: rgb(28, 29, 29);
 }
 /* Portfolio Section */
 #portfolio{
-
+    width: 100%;
+    margin: 50px 0;
+}
+.portfolio-text{
+    width: 66.66%;
+}
+.portfolio-text p:first-child{
+    color: #FF0000;
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 500px;
+}
+.portfolio-text h2:nth-child(2){
+    font-family: 'Merriweather', serif; 
+    font-size: 40px;
+    font-weight: 900px;
+    line-height: 60px;
+}
+.portfolio-text p:last-child{
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.portfolio-gallery{
+    display: flex;
+    margin-top: 20px;
+}
+.portfolio-gallery img{
+    width: 33.33%;
+    padding: 5px;
 }
 /* subscribe Section */
 #subscribe{
-
+    padding: 50px;
+background-color: #FFF2F2;
+}
+.subscribe-inner-box{
+    width: 800px;
+    margin: auto;
+    padding: 0 120px;
+}
+.subscribe-inner-box h2{
+    text-align: center;
+}
+.subscribe-inner-box p{
+    text-align: center;
+}
+.subscribe-inner-box-icon{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}
+.input-subscribe-button{
+    width: 450px;
+    margin:50px auto;
+}
+.input-subscribe-button input{
+    width: 300px;
+    height: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.input-subscribe-button button{
+    width: 150px;
+    height: 50px;
+    background-color: #FF0000;
+    color: #fff;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 footer{
 

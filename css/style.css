@@ -13,6 +13,7 @@
 #container{
     width: 1250px;
     margin: auto;
+    padding: 0 100px;
 }
 /* Banner Section */
 #banner{
@@ -94,12 +95,176 @@
     font-size: 60px;
     line-height: 80px;
 }
-.welcome-text-box button{
+.welcome-text-box button {
     font-family: 'Inter', sans-serif;
     text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
     color: #fff;
     margin-top: 20px;
     background-color: rgb(28, 29, 29);
+}
+/* place-date Section */
+#place-date{
+    width: 100%;
+    background: linear-gradient(#eaafaf, #FF000000);
+    font-family: 'Inter', sans-serif;
+}
+#place-date .text{
+    width: 550px;
+    height: 170px;
+    font-weight: 600px;
+    font-size: 34px;
+    line-height: 56px;
+    text-align: center;
+    margin: auto;
+    margin-top: 100px;
+}
+#place-date .text p span{
+    color: #FF0000;
+}
+#place-date button{
+    background-color: #FF0000;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 10px 32px;
+    margin: auto;
+    border: none;
+    border-radius: 10px;
+}
+#place-date button a{
+    color: #fff;
+    text-decoration: none;
+}
+#place-date div:last-child{
+    width: 170px;
+    height: 60px;
+    margin: auto;
+}
+/* coming-soon Section */
+#coming-soon{
+    display: flex;
+    margin-top: 100px;
+}
+#coming-soon div{
+    width: 33.33%;
+    padding: 0 30px 0 0;
+}
+#coming-soon h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 500px;
+    color: #FF0000;
+}
+#coming-soon div:nth-child(1), #coming-soon div:nth-child(3){
+    padding-top: 50px;
+}
+#coming-soon div:nth-child(1) h2{
+    font-family: 'Merriweather', serif; 
+    font-size: 40px;
+    font-weight: 900px;
+    line-height: 60px;
+}
+#coming-soon div:nth-child(1) p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+#coming-soon div:nth-child(2){
+    text-align: center;
+}
+#coming-soon div:nth-child(2) img {
+    width: 90%;
+    border: 15px solid #FF0000;
+    border-radius: 50%;
+    padding: 20px;
+}
+#coming-soon div:nth-child(3){
+    padding-left: 30px;
+    padding-right: 30px;
+}
+#coming-soon div:nth-child(3) h4{
+    font-family: 'Inter', sans-serif;
+    font-size: 22px;
+    font-weight: 500px;
+    color: #FF0000;
+}
+#coming-soon div:nth-child(3) h2{
+    font-family: 'Merriweather', serif; 
+    font-size: 40px;
+    font-weight: 900px;
+    line-height: 60px;
+    color: #FF0000;
+    text-align: left;
+}
+#coming-soon div:nth-child(3) p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+#coming-soon div:nth-child(3) img{
+    margin-top: 20px;
+}
+#coming-soon{
+    margin-top: 100px;
+}
+/* holiday Section */
+#holiday{
+    width: 100%;
+    margin-top: 100px;
+}
+.holiday-text-box{
+    text-align: center;
+}
+.holiday-text-box h5{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.holiday-text-box h2{
+    font-family: 'Merriweather', serif; 
+    font-size: 40px;
+    font-weight: 900px;
+    line-height: 60px;
+}
+.holiday-text-box h2 span{
+    color: #FF0000;
+}
+.holiday-text-box p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.holiday-image-box{
+    height: 556px;
+    position: relative;
+    display: flex;
+}
+.holiday-image-box img:first-child{
+    background: linear-gradient(#fff, #fff);
+    width: 70%;
+    z-index: 1;
+}
+.holiday-image-box img:nth-child(2){
+    width: 30%;
+}
+.holiday-image-box img:nth-child(3){
+    position: absolute;
+    right: 18%;
+}
+.holiday-image-box img:nth-child(4){
+    position: absolute;
+    /* width: 100%; */
+    bottom: 0;
 }
 /* Portfolio Section */
 #portfolio{
@@ -109,21 +274,21 @@
 .portfolio-text{
     width: 66.66%;
 }
-.portfolio-text p:first-child{
-    color: #FF0000;
+.portfolio-text h4{
     font-family: 'Inter', sans-serif;
-    font-size: 26px;
+    font-size: 22px;
     font-weight: 500px;
+    color: #FF0000;
 }
-.portfolio-text h2:nth-child(2){
+.portfolio-text h2{
     font-family: 'Merriweather', serif; 
     font-size: 40px;
     font-weight: 900px;
     line-height: 60px;
 }
-.portfolio-text p:last-child{
+.portfolio-text p{
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 30px;
 }
@@ -140,15 +305,18 @@
     padding: 50px;
 background-color: #FFF2F2;
 }
-.subscribe-inner-box{
-    width: 800px;
-    margin: auto;
-    padding: 0 120px;
-}
-.subscribe-inner-box h2{
+#subscribe h2{
+    font-family: 'Merriweather', serif; 
+    font-size: 48px;
+    font-weight: 900px;
+    line-height: 60px;
     text-align: center;
 }
-.subscribe-inner-box p{
+#subscribe p{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
     text-align: center;
 }
 .subscribe-inner-box-icon{
@@ -179,33 +347,29 @@ background-color: #FFF2F2;
 }
 footer{
     background: #000;
+    margin-top: 100px;
 }
 .footer-container{
-    width: 1250px;
+    width: 1320px;
     margin: auto;
     padding: 100px;
 }
+.top-footer div{
+    width: 385px;
+}
 .top-footer div:first-child{
-    color: #fff;
     float: left;  
 }
 .top-footer div:last-child{
-    text-align: end;
-    color: #fff;
     float:right 
 }
-.top-footer div:last-child, .top-footer div:first-child{
-    width: 385px;
+.top-footer div h4{
+    text-align: end;
+    color: #fff;
     font-family: 'Inter', sans-serif;
     font-weight: 500px;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 42px;
-}
-.top-footer{
-    
-}
-.top-footer{
-    
 }
 .midlee-footer{
 
@@ -220,25 +384,6 @@ footer{
     text-align: center;
     margin: 10px;
     display: inline-block;
-}
-.midlee-footer a:first-child{
-    color: #1877F2;
-}
-.midlee-footer a:nth-child(2){
-    color: #000;
-    background: linear-gradient(#e74141, #e40707cd);
-}
-.midlee-footer a:nth-child(3){
-    color: #e9dddd;
-}
-.midlee-footer a:last-child{
-    color: #1877F2;
-}
-.midlee-footer a i{
-
-}
-.bottom-footer{
-    
 }
 .bottom-footer div:first-child{
     font-family: 'Inter', sans-serif;

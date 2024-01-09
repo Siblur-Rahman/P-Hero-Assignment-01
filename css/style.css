@@ -5,6 +5,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 .clearfix::after {
     content: "";
     clear: both;
@@ -252,7 +255,6 @@
 .holiday-image-box img:first-child{
     background: linear-gradient(#fff, #fff);
     width: 70%;
-    z-index: 1;
 }
 .holiday-image-box img:nth-child(2){
     width: 30%;
@@ -260,11 +262,6 @@
 .holiday-image-box img:nth-child(3){
     position: absolute;
     right: 18%;
-}
-.holiday-image-box img:nth-child(4){
-    position: absolute;
-    /* width: 100%; */
-    bottom: 0;
 }
 /* Portfolio Section */
 #portfolio{
